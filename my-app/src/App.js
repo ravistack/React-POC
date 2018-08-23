@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import TableGrid from './TableGrid/TableGrid.jsx';
 import Filters from './Filters/Filters.jsx';
@@ -9,7 +8,6 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">Exceptions</h1>
         </header>
         <Grid className="GridApp">
