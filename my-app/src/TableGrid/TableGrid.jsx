@@ -11,10 +11,28 @@ class TableGrid extends Component {
             columnDefs: [
                 {headerName: "Make", field: "make"},
                 {headerName: "Model", field: "model"},
+                {headerName: "Price", field: "price"},
+                {headerName: "Make", field: "make"},
+                {headerName: "Model", field: "model"},
                 {headerName: "Price", field: "price"}
 
             ],
             rowData: [
+                {make: "Toyota", model: "Celica", price: 35000},
+                {make: "Ford", model: "Mondeo", price: 32000},
+                {make: "Porsche", model: "Boxter", price: 72000},
+                {make: "Toyota", model: "Celica", price: 35000},
+                {make: "Ford", model: "Mondeo", price: 32000},
+                {make: "Porsche", model: "Boxter", price: 72000},
+                {make: "Toyota", model: "Celica", price: 35000},
+                {make: "Ford", model: "Mondeo", price: 32000},
+                {make: "Porsche", model: "Boxter", price: 72000},
+                {make: "Toyota", model: "Celica", price: 35000},
+                {make: "Ford", model: "Mondeo", price: 32000},
+                {make: "Porsche", model: "Boxter", price: 72000},
+                {make: "Toyota", model: "Celica", price: 35000},
+                {make: "Ford", model: "Mondeo", price: 32000},
+                {make: "Porsche", model: "Boxter", price: 72000},
                 {make: "Toyota", model: "Celica", price: 35000},
                 {make: "Ford", model: "Mondeo", price: 32000},
                 {make: "Porsche", model: "Boxter", price: 72000}
@@ -31,6 +49,8 @@ class TableGrid extends Component {
 	                width: '100%' }} 
 		            >
                     <AgGridReact
+                        enableSorting={true}
+                        enableFilter={true}
                         columnDefs={this.state.columnDefs}
                         rowData={this.state.rowData}>
                     </AgGridReact>
