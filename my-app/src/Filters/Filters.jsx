@@ -17,9 +17,9 @@ class Filters extends Component {
     render() {
         return (
             <form className='FormFilter'>
-                <Label>
-                    Type
-                </Label>
+                <h5>
+                    <strong>Type</strong>
+                </h5>
                 <Checkbox>
                   DQ
                 </Checkbox>
