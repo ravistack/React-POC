@@ -8,45 +8,61 @@ class TableGrid extends Component {
         super(props);
 
         this.state = {
+        //change it her
             columnDefs: [
-                {headerName: "Make", field: "make"},
-                {headerName: "Model", field: "model"},
-                {headerName: "Price", field: "price"},
-                {headerName: "Make", field: "make"},
-                {headerName: "Model", field: "model"},
-                {headerName: "Price", field: "price"}
+                {headerName: "As_Of_Date", field: "as_of_date"},
+                {headerName: "Label_Name", field: "label_name"},
+                {headerName: "DQ_Rule_ID", field: "dq_rule_id"},
+                {headerName: "DQ_Entity", field: "dq_entity"},
+                {headerName: "DQ_Attribute", field: "dq_attribute"},
+                {headerName: "DQ_Attribute_Value", field: "dq_attribute_value"},
+                {headerName: "DQ_Exception_MSG", field: "dq_exception_msg"},
+                {headerName: "Primary_Key", field: "primary_key"},
+                {headerName: "Category", field: "category"},
 
             ],
             rowData: [
-                {make: "Toyota", model: "Celica", price: 35000},
-                {make: "Ford", model: "Mondeo", price: 32000},
-                {make: "Porsche", model: "Boxter", price: 72000},
-                {make: "Toyota", model: "Celica", price: 35000},
-                {make: "Ford", model: "Mondeo", price: 32000},
-                {make: "Porsche", model: "Boxter", price: 72000},
-                {make: "Toyota", model: "Celica", price: 35000},
-                {make: "Ford", model: "Mondeo", price: 32000},
-                {make: "Porsche", model: "Boxter", price: 72000},
-                {make: "Toyota", model: "Celica", price: 35000},
-                {make: "Ford", model: "Mondeo", price: 32000},
-                {make: "Porsche", model: "Boxter", price: 72000},
-                {make: "Toyota", model: "Celica", price: 35000},
-                {make: "Ford", model: "Mondeo", price: 32000},
-                {make: "Porsche", model: "Boxter", price: 72000},
-                {make: "Toyota", model: "Celica", price: 35000},
-                {make: "Ford", model: "Mondeo", price: 32000},
-                {make: "Porsche", model: "Boxter", price: 72000}
+                {as_of_date: "as_of_date-1", label_name: "label_name-1", dq_rule_id: 1, dq_entity: "dq_entity-1", dq_attribute: "dq_attribute-1", dq_attribute_value: "dq_attribute_value-1", dq_exception_msg: "dq_exception_msg-1", primary_key: "primary_key-1", category: "category-1"},
+                {as_of_date: "as_of_date-1", label_name: "label_name-1", dq_rule_id: 1, dq_entity: "dq_entity-1", dq_attribute: "dq_attribute-1", dq_attribute_value: "dq_attribute_value-1", dq_exception_msg: "dq_exception_msg-1", primary_key: "primary_key-1", category: "category-1"},
+                {as_of_date: "as_of_date-1", label_name: "label_name-1", dq_rule_id: 1, dq_entity: "dq_entity-1", dq_attribute: "dq_attribute-1", dq_attribute_value: "dq_attribute_value-1", dq_exception_msg: "dq_exception_msg-1", primary_key: "primary_key-1", category: "category-1"},
+                {as_of_date: "as_of_date-1", label_name: "label_name-1", dq_rule_id: 1, dq_entity: "dq_entity-1", dq_attribute: "dq_attribute-1", dq_attribute_value: "dq_attribute_value-1", dq_exception_msg: "dq_exception_msg-1", primary_key: "primary_key-1", category: "category-1"},
+                {as_of_date: "as_of_date-1", label_name: "label_name-1", dq_rule_id: 1, dq_entity: "dq_entity-1", dq_attribute: "dq_attribute-1", dq_attribute_value: "dq_attribute_value-1", dq_exception_msg: "dq_exception_msg-1", primary_key: "primary_key-1", category: "category-1"},
+                {as_of_date: "as_of_date-1", label_name: "label_name-1", dq_rule_id: 1, dq_entity: "dq_entity-1", dq_attribute: "dq_attribute-1", dq_attribute_value: "dq_attribute_value-1", dq_exception_msg: "dq_exception_msg-1", primary_key: "primary_key-1", category: "category-1"},
+                {as_of_date: "as_of_date-1", label_name: "label_name-1", dq_rule_id: 1, dq_entity: "dq_entity-1", dq_attribute: "dq_attribute-1", dq_attribute_value: "dq_attribute_value-1", dq_exception_msg: "dq_exception_msg-1", primary_key: "primary_key-1", category: "category-1"},
+                {as_of_date: "as_of_date-1", label_name: "label_name-1", dq_rule_id: 1, dq_entity: "dq_entity-1", dq_attribute: "dq_attribute-1", dq_attribute_value: "dq_attribute_value-1", dq_exception_msg: "dq_exception_msg-1", primary_key: "primary_key-1", category: "category-1"},
+                {as_of_date: "as_of_date-1", label_name: "label_name-1", dq_rule_id: 1, dq_entity: "dq_entity-1", dq_attribute: "dq_attribute-1", dq_attribute_value: "dq_attribute_value-1", dq_exception_msg: "dq_exception_msg-1", primary_key: "primary_key-1", category: "category-1"},
+                {as_of_date: "as_of_date-1", label_name: "label_name-1", dq_rule_id: 1, dq_entity: "dq_entity-1", dq_attribute: "dq_attribute-1", dq_attribute_value: "dq_attribute_value-1", dq_exception_msg: "dq_exception_msg-1", primary_key: "primary_key-1", category: "category-1"},
+                {as_of_date: "as_of_date-1", label_name: "label_name-1", dq_rule_id: 1, dq_entity: "dq_entity-1", dq_attribute: "dq_attribute-1", dq_attribute_value: "dq_attribute_value-1", dq_exception_msg: "dq_exception_msg-1", primary_key: "primary_key-1", category: "category-1"},
+                {as_of_date: "as_of_date-1", label_name: "label_name-1", dq_rule_id: 1, dq_entity: "dq_entity-1", dq_attribute: "dq_attribute-1", dq_attribute_value: "dq_attribute_value-1", dq_exception_msg: "dq_exception_msg-1", primary_key: "primary_key-1", category: "category-1"},
+                {as_of_date: "as_of_date-1", label_name: "label_name-1", dq_rule_id: 1, dq_entity: "dq_entity-1", dq_attribute: "dq_attribute-1", dq_attribute_value: "dq_attribute_value-1", dq_exception_msg: "dq_exception_msg-1", primary_key: "primary_key-1", category: "category-1"},
+                {as_of_date: "as_of_date-1", label_name: "label_name-1", dq_rule_id: 1, dq_entity: "dq_entity-1", dq_attribute: "dq_attribute-1", dq_attribute_value: "dq_attribute_value-1", dq_exception_msg: "dq_exception_msg-1", primary_key: "primary_key-1", category: "category-1"},
+                {as_of_date: "as_of_date-1", label_name: "label_name-1", dq_rule_id: 1, dq_entity: "dq_entity-1", dq_attribute: "dq_attribute-1", dq_attribute_value: "dq_attribute_value-1", dq_exception_msg: "dq_exception_msg-1", primary_key: "primary_key-1", category: "category-1"},
+                {as_of_date: "as_of_date-1", label_name: "label_name-1", dq_rule_id: 1, dq_entity: "dq_entity-1", dq_attribute: "dq_attribute-1", dq_attribute_value: "dq_attribute_value-1", dq_exception_msg: "dq_exception_msg-1", primary_key: "primary_key-1", category: "category-1"},
+                {as_of_date: "as_of_date-1", label_name: "label_name-1", dq_rule_id: 1, dq_entity: "dq_entity-1", dq_attribute: "dq_attribute-1", dq_attribute_value: "dq_attribute_value-1", dq_exception_msg: "dq_exception_msg-1", primary_key: "primary_key-1", category: "category-1"},
+                {as_of_date: "as_of_date-1", label_name: "label_name-1", dq_rule_id: 1, dq_entity: "dq_entity-1", dq_attribute: "dq_attribute-1", dq_attribute_value: "dq_attribute_value-1", dq_exception_msg: "dq_exception_msg-1", primary_key: "primary_key-1", category: "category-1"},
+                {as_of_date: "as_of_date-1", label_name: "label_name-1", dq_rule_id: 1, dq_entity: "dq_entity-1", dq_attribute: "dq_attribute-1", dq_attribute_value: "dq_attribute_value-1", dq_exception_msg: "dq_exception_msg-1", primary_key: "primary_key-1", category: "category-1"},
+                {as_of_date: "as_of_date-1", label_name: "label_name-1", dq_rule_id: 1, dq_entity: "dq_entity-1", dq_attribute: "dq_attribute-1", dq_attribute_value: "dq_attribute_value-1", dq_exception_msg: "dq_exception_msg-1", primary_key: "primary_key-1", category: "category-1"},
+                {as_of_date: "as_of_date-1", label_name: "label_name-1", dq_rule_id: 1, dq_entity: "dq_entity-1", dq_attribute: "dq_attribute-1", dq_attribute_value: "dq_attribute_value-1", dq_exception_msg: "dq_exception_msg-1", primary_key: "primary_key-1", category: "category-1"},
+                {as_of_date: "as_of_date-1", label_name: "label_name-1", dq_rule_id: 1, dq_entity: "dq_entity-1", dq_attribute: "dq_attribute-1", dq_attribute_value: "dq_attribute_value-1", dq_exception_msg: "dq_exception_msg-1", primary_key: "primary_key-1", category: "category-1"},
+                {as_of_date: "as_of_date-1", label_name: "label_name-1", dq_rule_id: 1, dq_entity: "dq_entity-1", dq_attribute: "dq_attribute-1", dq_attribute_value: "dq_attribute_value-1", dq_exception_msg: "dq_exception_msg-1", primary_key: "primary_key-1", category: "category-1"},
+                {as_of_date: "as_of_date-1", label_name: "label_name-1", dq_rule_id: 1, dq_entity: "dq_entity-1", dq_attribute: "dq_attribute-1", dq_attribute_value: "dq_attribute_value-1", dq_exception_msg: "dq_exception_msg-1", primary_key: "primary_key-1", category: "category-1"},
+                {as_of_date: "as_of_date-1", label_name: "label_name-1", dq_rule_id: 1, dq_entity: "dq_entity-1", dq_attribute: "dq_attribute-1", dq_attribute_value: "dq_attribute_value-1", dq_exception_msg: "dq_exception_msg-1", primary_key: "primary_key-1", category: "category-1"},
+                {as_of_date: "as_of_date-1", label_name: "label_name-1", dq_rule_id: 1, dq_entity: "dq_entity-1", dq_attribute: "dq_attribute-1", dq_attribute_value: "dq_attribute_value-1", dq_exception_msg: "dq_exception_msg-1", primary_key: "primary_key-1", category: "category-1"},
+                {as_of_date: "as_of_date-1", label_name: "label_name-1", dq_rule_id: 1, dq_entity: "dq_entity-1", dq_attribute: "dq_attribute-1", dq_attribute_value: "dq_attribute_value-1", dq_exception_msg: "dq_exception_msg-1", primary_key: "primary_key-1", category: "category-1"},
+                {as_of_date: "as_of_date-1", label_name: "label_name-1", dq_rule_id: 1, dq_entity: "dq_entity-1", dq_attribute: "dq_attribute-1", dq_attribute_value: "dq_attribute_value-1", dq_exception_msg: "dq_exception_msg-1", primary_key: "primary_key-1", category: "category-1"},
+                {as_of_date: "as_of_date-1", label_name: "label_name-1", dq_rule_id: 1, dq_entity: "dq_entity-1", dq_attribute: "dq_attribute-1", dq_attribute_value: "dq_attribute_value-1", dq_exception_msg: "dq_exception_msg-1", primary_key: "primary_key-1", category: "category-1"},
+                {as_of_date: "as_of_date-1", label_name: "label_name-1", dq_rule_id: 1, dq_entity: "dq_entity-1", dq_attribute: "dq_attribute-1", dq_attribute_value: "dq_attribute_value-1", dq_exception_msg: "dq_exception_msg-1", primary_key: "primary_key-1", category: "category-1"}
             ]
         }
     }
 
     render() {
         return (
-                <div 
+                <div
                   className="ag-theme-balham"
-                  style={{ 
-	                height: '500px', 
-	                width: '100%' }} 
+                  style={{
+	                height: '500px',
+	                width: '100%' }}
 		            >
                     <AgGridReact
                         enableSorting={true}
