@@ -10,7 +10,7 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">RCL Exceptions_UI</h1>
+          <h1 className="App-title">Exceptions</h1>
         </header>
         <Grid className="GridApp">
           <Row className="show-grid">
