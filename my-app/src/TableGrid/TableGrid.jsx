@@ -52,7 +52,8 @@ class TableGrid extends Component {
                         enableSorting={true}
                         enableFilter={true}
                         columnDefs={this.state.columnDefs}
-                        rowData={this.state.rowData}>
+                        rowData={this.state.rowData}
+                        onGridReady={ params => this.gridApi = params.api }>
                     </AgGridReact>
                 </div>
             );
